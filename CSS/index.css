@@ -1,0 +1,32 @@
+html
+{
+	font-family: 'American Typewriter', sans-serif;
+}
+
+body {
+  background-image: url("img_tree.gif"), url("../src/cave.jpeg");
+  background-size: 100%;
+  background-color: #cccccc;
+  background-position: 0px -20px;
+}
+
+.marble {
+	height: 150px;
+	width: 150px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+
+  	position: relative;
+	animation: bounce 3s linear 0s 1 forwards;
+}
+.marble h3
+{
+	text-align: center;
+}
+
+@keyframes bounce
+{
+	0% {top: 0px;}
+	100% {top: 100px;}
+}
