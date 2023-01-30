@@ -1,0 +1,42 @@
+html, body
+{
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+ul 
+{
+  list-style-type: none;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+}
+li
+{ 
+  height: inherit;
+  display: inline;
+  float: left;
+}
+
+li a
+{
+  color: #d7e0e7;
+  padding: 0px 12px 0px 12px;
+  text-decoration: none;
+  text-align: center;
+  line-height: inherit;
+  height: inherit;
+  display: block;
+}
+li a:hover
+{
+  background-color: #121a22;
+}
+
+#navbar
+{
+  background-color: #2e3f4d;
+  line-height: 50px;
+  height: 50px;
+  width: 100%;
+}
